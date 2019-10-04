@@ -1,4 +1,4 @@
-import deleteHandler from  '../handlers/deleteHandler.js/index.js'
+import deleteHandler from  '../handlers/deleteHandler.js'
 
 module.exports = {
   method: 'DELETE',

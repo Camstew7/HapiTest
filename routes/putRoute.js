@@ -1,4 +1,4 @@
-import putHandler from  '../handlers/putHandler.js/index.js'
+import putHandler from  '../handlers/putHandler.js'
 
 module.exports = {
   method: 'PUT',

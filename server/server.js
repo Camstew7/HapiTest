@@ -1,5 +1,5 @@
 import Hapi from 'hapi'
-import getRoute from '../routes/getRoute.js/index.js'
+import getRoute from '../routes/getRoute.js'
 import postRoute from '../routes/postRoute.js'
 import putRoute from '../routes/putRoute.js'
 import deleteRoute from '../routes/deleteRoute.js'

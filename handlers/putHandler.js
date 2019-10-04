@@ -1,6 +1,6 @@
 import updateData from '../db/putRepository.js'
 
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
   try {
     await updateData(req.query.id)
     res().code(200)

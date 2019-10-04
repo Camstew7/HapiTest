@@ -1,4 +1,4 @@
-import postHandler from  '../handlers/postHandler.js/index.js'
+import postHandler from  '../handlers/postHandler.js'
 
 module.exports = {
   method: 'POST',

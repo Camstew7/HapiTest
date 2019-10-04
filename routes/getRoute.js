@@ -1,4 +1,4 @@
-import getHandler from  '../handlers/getHandler.js/index.js'
+import getHandler from  '../handlers/getHandler.js'
 
 module.exports = {
   method: 'GET',
