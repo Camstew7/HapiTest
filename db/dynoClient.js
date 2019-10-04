@@ -1,8 +1,8 @@
 import AWS from  'aws-sdk'
-const region = process.env.REGION
+//const region = process.env.REGION
 
-AWS.config.update({
-  region
-})
-
+console.log('spinning up dynamo')
+// AWS.config.update({
+//   region
+// })
 module.exports = new AWS.DynamoDB.DocumentClient()

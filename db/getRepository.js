@@ -5,5 +5,6 @@ module.exports = async(target) => {
     TableName: 'theFuckingTable',
     Key: target
   }
+  console.log('getting from dynamo')
   return await dynoClient.GetItem(query)
 }
