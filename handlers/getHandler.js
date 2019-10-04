@@ -1,7 +1,7 @@
 import readData from '../db/getRepository.js'
 
 module.exports = async (req, res) => {
-
+  console.log('get hit')
   try {
     const result = await readData(req.query.id)
     res(result).code(200)
