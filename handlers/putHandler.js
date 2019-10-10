@@ -1,4 +1,4 @@
-import updateData from '../db/putRepository.js'
+import updateData from '../db/repositories/putRepository'
 
 module.exports = async (req, res) => {
   try {

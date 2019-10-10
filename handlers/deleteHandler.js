@@ -1,4 +1,4 @@
-import deleteData from '../db/deleteRepository.js'
+import deleteData from '../db/repositories/deleteRepository'
 
 module.exports = async (req, res) => {
 

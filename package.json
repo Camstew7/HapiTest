@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bootstrap.js"
+    "start": "node bootstrap.js",
+    "seed": "node testing/seedDB.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,10 @@
     "babel-core": "6.26.3",
     "babel-preset-es2015": "6.24.1",
     "hapi": "16.6.3",
+    "mongoose": "^5.7.4",
     "uuid": "3.3.3"
+  },
+  "devDependencies": {
+    "faker": "4.1.0"
   }
 }

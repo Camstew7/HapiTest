@@ -1,4 +1,4 @@
-import createData from '../db/postRepository.js'
+import createData from '../db/repositories/postRepository'
 
 module.exports = async (req, res) => {
   try {
